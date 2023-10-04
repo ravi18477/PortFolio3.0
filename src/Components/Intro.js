@@ -16,8 +16,8 @@ function Intro() {
       <h2> <i class="bi bi-wallet-fill"></i></h2>
       <p>I am a skilled and passionate web designer with experience in creating visually appealing ans user-friendly websites </p>
      
-       <span> <a href="https://www.linkedin.com/in/ravi-kr-bhagat/" target="_blank" rel="noopener noreferrer"><img className='logos' src={linkedin} style={{'width':'40px'}}></img></a>
-                    <a href="https://github.com/ravi18477" target="_blank" rel="noopener noreferrer"><img className='logos' src={github}></img></a><input  value={`   Hire Me`} style={{'marginLeft':'10px','borderRadius':'100px','fontWeight':'500','width':'100px','height':'45px'}}/></span>
+       <span> <img className='logos' src={linkedin} style={{'width':'40px'}}></img>
+                   <img className='logos' src={github}></img><input  value={`   Hire Me`} style={{'marginLeft':'10px','borderRadius':'100px','fontWeight':'500','width':'100px','height':'45px'}}/></span>
     </div>
     </div>
 
