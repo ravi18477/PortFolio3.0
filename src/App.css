@@ -1,38 +1,80 @@
-.App {
-  text-align: center;
+body{
+  background-color: black;
+}
+.app{
+  background-color: black;
+  height: 100vw;
+  width: 100vw;
+}
+.navLinkItems:hover{
+color: yellow;
+/* padding-bottom: .5rem; */
+border-bottom: 4px solid yellow;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.skill-card{
+  background-color: rgb(36, 28, 28);
+  border-radius: 0px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.skill-card:hover{
+  background-color:  rgba(46, 45, 45, 0.874);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.contact-input{
+  background-color:rgb(36, 28, 28);
   color: white;
+  width:80%;
+  height: 50px;
+  border: 0px;
+  border-radius: 15px;
+  margin-top: 20px;
+  padding-left: 30px;
+  
 }
 
-.App-link {
-  color: #61dafb;
+.section-head{
+  text-align: center;
+  text-decoration:underline yellow;
+  margin-bottom:40px;
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.contact-input-1{
+  height: 200px;
+  background-color:rgb(36, 28, 28);
+  color: white;
+  width:80%;
+  margin-top: 30px;
+  border-radius: 15px;
+  padding-left: 30px;
+  margin-bottom: 40px;
+
+}
+
+.logos{
+  width:40px;
+  margin-left: 10px;
+}
+
+.project-img{
+  width:80%;
+}
+
+.project-card{
+  background-color:rgb(36, 28, 28) ;
+}
+.code-Link{
+  background-color: white;
+  color: black;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-weight: 600;
+  padding-bottom: 2px;
+
+}
+.code-Link:hover{
+  background-color:bisque;
+  color: blue;
+  font-size:large;
 }
