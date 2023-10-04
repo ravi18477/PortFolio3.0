@@ -37,8 +37,8 @@ function Contact() {
             
             <div className='logoContainer' style={{ 'text-align': 'center', 'marginTop':'50px' }}>
                     
-                    <a href="https://www.linkedin.com/in/ravi-kr-bhagat/" target="_blank" rel="noopener noreferrer"><img className='logos' src={linkedin} style={{'width':'40px'}}></img></a>
-                    <a href="https://github.com/ravi18477" target="_blank" rel="noopener noreferrer"><img className='logos' src={github}></img></a>
+                    <img className='logos' src={linkedin} style={{'width':'40px'}}></img>
+                    <img className='logos' src={github}></img>
                     <a ><img className='logos' src={twitter}></img></a>
                     <a  ><img className='logos' src={facebook}></img></a>
                     <ul></ul>
